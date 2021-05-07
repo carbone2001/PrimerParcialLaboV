@@ -19,7 +19,7 @@ public class UsuarioActivity extends AppCompatActivity {
         setContentView(R.layout.activity_usuario);
 
         ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle("Editar usuario");
+        actionBar.setTitle(this.getString(R.string.editar_usuario));
         actionBar.setDisplayHomeAsUpEnabled(true);
 
         Bundle extras = super.getIntent().getExtras();

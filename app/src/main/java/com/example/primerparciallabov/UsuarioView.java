@@ -36,13 +36,13 @@ public class UsuarioView {
         this.etNombre.setText(this.model.getNombre());
         this.etContraseña.setText(this.model.getContraseña());
         this.etContraseñaRepetida.setText(this.model.getContraseña());
-        switch (this.model.getTipoUsuario()){
-            case "Administrador":
-                this.rgTipoUsuario.check(R.id.rdAdministrador);
-                break;
-            case "Usuario":
-                this.rgTipoUsuario.check(R.id.rdUsuario);
-                break;
+        this.activity.getString(R.string.administrador);
+        if(this.model.getTipoUsuario().equals(this.activity.getString(R.string.administrador)))
+        {
+            this.rgTipoUsuario.check(R.id.rdAdministrador);
+        }
+        else if(this.model.getTipoUsuario().equals(this.activity.getString(R.string.usuario))) {
+            this.rgTipoUsuario.check(R.id.rdUsuario);
         }
     }
 

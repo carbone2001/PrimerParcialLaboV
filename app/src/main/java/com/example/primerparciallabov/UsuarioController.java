@@ -35,7 +35,7 @@ public class UsuarioController implements View.OnClickListener {
             }
             else
             {
-                Toast.makeText(this.activity,"Hay campos invalidos",Toast.LENGTH_LONG).show();
+                Toast.makeText(this.activity, this.activity.getString(R.string.campos_invalidos),Toast.LENGTH_LONG).show();
             }
         }
     }

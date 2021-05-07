@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         this.listaUsuarios = new ArrayList<>();
 
         for (int i=0;i<30;i++){
-            this.listaUsuarios.add(new UsuarioModel("Nombre"+(i*21),(i%2 == 0)?"Administrador":"Usuario", "admin123"));
+            this.listaUsuarios.add(new UsuarioModel("Nombre"+(i*21),(i%2 == 0)?getString(R.string.administrador):getString(R.string.usuario), "admin123"));
         }
 
         this.adapter = new UsuarioAdapter(this);
@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
             this.listaUsuarios.set(UsuarioActivity.index,UsuarioActivity.model);
             UsuarioActivity.model = null;
             this.rv.setAdapter(adapter);
-            Toast.makeText(this,"Usuario modificado", Toast.LENGTH_LONG).show();
+            //Toast.makeText(this,"Usuario modificado", Toast.LENGTH_LONG).show();
         }
     }
 }
