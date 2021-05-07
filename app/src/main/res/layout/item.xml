@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JPerez"
+            android:textSize="30dp"
+            android:id="@+id/tvNombre"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Administrador"
+            android:textSize="20dp"
+            android:id="@+id/tvTipo"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btnEditar"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@android:drawable/ic_menu_view"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="@color/red" />
+    </LinearLayout>
+</LinearLayout>

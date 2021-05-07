@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PrimerParcialLaboV</string>
+    <string name="usuario">Usuario</string>
+    <string name="clave">Contraseña</string>
+    <string name="clave_repetida">Repita la contraseña</string>
+    <string name="tipo">Tipo</string>
+    <string name="administrador">Administrador</string>
+    <string name="guardar">Guardar</string>
+    <string name="campos_invalidos">Campos invalidos</string>
+    <string name="editar_usuario">Editar usuario</string>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PrimerParcialLaboV</string>
+    <string name="usuario">User</string>
+    <string name="clave">Password</string>
+    <string name="clave_repetida">Repeat Password</string>
+    <string name="tipo">Type</string>
+    <string name="administrador">Administrator</string>
+    <string name="guardar">Save</string>
+    <string name="campos_invalidos">Wrong fields</string>
+    <string name="editar_usuario">Edit User</string>
+</resources>
